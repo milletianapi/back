@@ -1,0 +1,5091 @@
+{
+  "shop": [
+    {
+      "tab_name": "마족표무기",
+      "item": [
+        {
+          "item_display_name": "마족표 홉네일 너클",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b7f3fdee8f845080b0a13140b85f747d?q=4b454d4549424e4887464e55505048484e8a50424f524d414d48844350424f535a51508f4c434c474d4e4a52884849434d414f455b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "38",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "31%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "53%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "22",
+              "option_value2": "22",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "54,54,54",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 베어 너클",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/780272cf21d1673a6437f8c77c040a4d?q=4b454a584e53495587464e474c444f464b8a5042435060425c52844350545c555f58488f4c435e514b464d43884849515f46504160",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "22",
+              "option_value2": "31",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "37%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "63%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "19",
+              "option_value2": "19",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "110,110,110",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "64,64,64",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "152,160,173",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 비펜니스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/cb432a0874b6add7d5f47a5e2fa907d8?q=4b455e425a455d4387464e465e414d434e8a50425e4148484946844350505e514a524c8f4c434b454f414747884849544e4d5d4343",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "20",
+              "option_value2": "36",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "33%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "179,179,179",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "127,114,55",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 해머",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4a6896c655a7bb34ae9fcb173dda914b?q=4b455d4359465e4187464e554f554f455a8a50424f414b484b468443505249565d515d8f4c434f424a544a44884849584f544a525a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1030
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "11",
+              "option_value2": "58",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "20%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "17",
+              "option_value2": "17",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "192,194,193",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "245,192,92",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 메이스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/aa88222c4c1851a3b6661b9fd9af5433?q=4b455f455b42604887464e515b554b56498a50425e5049554952844350505e564b55488f4c4359535a525d41884849454c4650434c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1600
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "63",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "23%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "17",
+              "option_value2": "17",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "166,166,166",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "186,196,210",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 배틀 해머",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/ce55a1baccf91ac9621201e042152c3f?q=4b454b4b4f444b4987464e545a575d51598a50424b4249485c4d844350525d494e425b8f4c434b4a4b464c4c884849534c4650475f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 4800
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "24",
+              "option_value2": "68",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "33%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "23%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "19",
+              "option_value2": "19",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "88,84,73",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "171,171,171",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 단검",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/59f03240da275109f135a815ffdc9e9c?q=4b455d5759545e5687464e515b554b56498a50425e434a4950518443505259555a52478f4c43595159474b4788484953444650454c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "10",
+              "option_value2": "17",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "33%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "88%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "11",
+              "option_value2": "11",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "205,205,205",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "186,196,210",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 배틀 소드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4fa304b8499eab077652840d46254461?q=4b455d5259555e5387464e4850414b46448a504244414a474f51844350545b544b414c8f4c435947434d4b52884849424b4e4b4259",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "29",
+              "option_value2": "40",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "22%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "204,204,204",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "84,116,73",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "135,119,78",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 브로드 소드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4cd7958c8f2edef64b6d56600c59abf6?q=4b455d5259415e4387464e57495059464b8a50424f444948434e844350444a484e455f8f4c434f424b454d428848494860585c484b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "21",
+              "option_value2": "38",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "20%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "63%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "204,199,195",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "211,143,64",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "84,102,136",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 글라디우스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/22787bcdddce04e5d32f7513d75b42bf?q=4b455e465a415d4787464e4844434b46448a50424d524a444a438443505760496046508f4c434f415c575c41884849455a44474543",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 3400
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "23",
+              "option_value2": "40",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "20%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "67%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "183,183,183",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "88,84,73",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "127,114,55",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 그레이트 소드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fcc5ce67a109b33d0107eb8016d4f0b5?q=4b455e575a545d5687464e4844434b46448a50424d4649534f51844350524d495d47498f4c435b4944434b45884849585c585b485f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2900
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "31",
+              "option_value2": "40",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "20%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "54%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "189,189,189",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "88,84,73",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 석궁",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/68d22c47e0dd7be1b8a323e69685a207?q=4b4549554d464e4787464e4650425e454f8a50425e454a4a4441844350414c534a41478f4c434c434d4d4b47884849445a444c5460",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 3100
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "30",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "0%",
+              "option_value2": "100%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "38%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "88%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "127,114,55",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "116,108,84",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "피어싱 레벨",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 콤포짓 보우",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fcc7072b86ccee6365143b1064d296c5?q=4b4549474e554c4687464e4650435b445d8a50425e555e554d458443504149494b4e478f4c4350494d464e43884849535c555a444b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "25",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "50%",
+              "option_value2": "100%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "36%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "58%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "13",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "116,108,84",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "116,93,47",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 레더 롱 보우",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/0c357a5487673d7778d546ca352d955c?q=4b4549474e554c4687464e5150504e454f8a50424b505d445941844350444c484d444d8f4c435b4759484f42884849454c4650475b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "30",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "25%",
+              "option_value2": "100%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "63%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "116,108,84",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "180,131,84",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 엘븐 롱 보우",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/7a9e784e630e121ec51e885bd154a0a8?q=4b454d444a554d4787464e465e414d434e8a50425b535d424d4e844350534a565c515e8f4c434f425c524843884849474f415b4749",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1300
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "28",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "25%",
+              "option_value2": "100%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "23%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "58%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "49,44,39",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "127,114,55",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 피시스 우든 랜스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/764fd2f56d89f395ec4a7295baff8be4?q=4b455b5760525e5487464e444f474c41508a50424448474243468443505460584c54488f4c4359535a524b4b884849424c554a584f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 3900
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "43",
+              "option_value2": "58",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "29%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "21",
+              "option_value2": "21",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "237,223,203",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "21,21,21",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "피어싱 레벨",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 클레이모어",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/26aca59d33822b20e53015e3de81725d?q=4b455e575a545d5687464e5144564754438a504244504c464f478443505447556051488f4c43594744414e438848495144525e554f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 10500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "36",
+              "option_value2": "63",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "48%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "189,189,189",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "184,184,184",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "136,84,67",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 라이트닝 원드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/16143a99bb7e1d158b47caa8c217017f?q=4b4549474d544d5887464e4850414b46448a50424e4349454a45844350575b4a5c43478f4c435e4259455c458848495449585a4549",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 16000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "9",
+              "option_value2": "21",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "18%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "13",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "116,125,47",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "84,116,73",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 아이스 원드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/a847d566e6131343014ca5107ba308b4?q=4b454d575057494487464e465b424f44608a50424f5549494d55844350554a535a51488f4c4347564c434854884849585c585d4260",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 16000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "12",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "21%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "48%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "13",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "61,74,98",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "122,96,46",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 파이어 원드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/e428519a0be712583088919b2c9c6b1d?q=4b4549474f544d5887464e4650435b445d8a5042594f5d435057844350554a515d415f8f4c435b424b46484c8848494443484a465f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 16000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "20",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "38%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "13",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "116,93,47",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "116,93,47",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 크리스탈 라이트닝 원드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/9f0b53c12caa54903b893fc70d4f670d?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350484f455048478f4c435e5159555c51884849424b44474260",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 19000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "12",
+              "option_value2": "21",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "23%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 크라운 아이스 원드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/40dced257cfd05c2b2ecc9d54fecf942?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350554e494a574c8f4c434f4344454c44884849585952494859",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 19000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "21%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "48%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 피닉스 파이어 원드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/524f587fc1c6595e931fa7ec70b93bde?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350575c4a4b434a8f4c4350494b464b4b884849584e555a475b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 19000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "19",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "18%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 브로드 액스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/5a5ee590c83fc1726d30d79dd095f875?q=4b455e5459445b4487464e524f554c53508a5042444847424346844350425c4850415f8f4c4359434f434b578848494544445f4859",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 30000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "80",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "26%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "45%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "186,196,210",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "197,197,197",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 윙 보우",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6c69c5cf4af8e6a7c00a3a4bd9335087?q=4b454a414f524b4687464e465e414d434e8a50424c484756504e844350525d5349415c8f4c4348445f455f41884849584e4d4b414c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "10",
+              "option_value2": "26",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "0%",
+              "option_value2": "50%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "32%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "48%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "98,95,68",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "127,114,55",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 팔카타",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/56df5acc6c54ef0cd7721556bba70241?q=4b454c4c4d55474887464e484d434a454e8a50424d545e4a434d8443504f5b545d47498f4c434756594748588848494859485a485f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "24",
+              "option_value2": "45",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "23%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "58%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "73,124,134",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "87,87,87",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 하이랜더 클레이모어",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/382f5e1bfcd2624ba1f7b36231ad7a08?q=4b454b474f54495687464e464f435e484b8a50424e414e514a42844350534d554f484d8f4c435e545a4e5b47884849485a47474c4e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 250000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "36",
+              "option_value2": "70",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "17%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "40%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "21",
+              "option_value2": "21",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "84,93,109",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "117,92,96",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "103,58,52",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 하이랜더 롱 보우",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fb907f54210eee9b573e7c782d3c07b7?q=4b455d4859535d5187464e524a564a514f8a504250554e484d45844350425d5449434c8f4c43475859484844884849424c554c4849",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 900000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "21",
+              "option_value2": "35",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "20%",
+              "option_value2": "80%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "27%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "63%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "19",
+              "option_value2": "19",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "197,206,186",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "194,183,164",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 프랑키스카",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/540da4dd365de01ad7476dfdea4954cc?q=4b4549474d444a4687464e545f505e48508a50425e4550554d47844350534a495c425d8f4c435e434f474855884849424b4749465e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "49",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "30%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "38%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "21",
+              "option_value2": "21",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "116,116,116",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "174,140,101",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 볼케이노 실린더",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/20c9dcc59c52ce20d2b3f7f7606afce8?q=4b454d5449574e5187464e454e4250474f8a5042444847424346844350424c485a445d8f4c4359484e524b44884849474f434d4650",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "11",
+              "option_value2": "20",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "58,58,58",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "102,97,116",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 어스퀘이크 실린더",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b177b02d591d9f0469f6e731de13097b?q=4b454a434e48494287464e425b4560435c8a504244484742434684435042495344575b8f4c434e484d4d49438848494a4f4847475a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 70000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "11",
+              "option_value2": "20",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "96,96,96",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "58,58,58",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 허리케인 실린더",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/582b4014ffafcc2d570d7d65287126c1?q=4b454c5750544b5687464e4b434f4f494c8a50424448474243468443504747485d4d4d8f4c435043505148548848494749424b474f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 70000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "11",
+              "option_value2": "20",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "77,77,77",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "137,144,145",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 타이달웨이브 실린더",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b6166d7855d3df3da89e70bab8579890?q=4b4548484442474987464e4859414f4a4a8a5042444847424346844350484f515f41478f4c435947444e4e46884849424b58504c60",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 70000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "11",
+              "option_value2": "20",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "18",
+              "option_value2": "18",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "133,134,137",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "92,112,131",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 아바레스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/275d14317e388eafc602c2b4412586c8?q=4b454c4550564b5587464e4b4c504f4a4b8a5042444847424346844350444e455a445d8f4c435c4644554c52884849424b434e4c5e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 120000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "21",
+              "option_value2": "29",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "0%",
+              "option_value2": "100%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "40%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "76%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "70,75,78",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "피어싱 레벨",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 나이트 랜스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/7bbbbb4e632a7137a0b556a150b19c77?q=4b454b4750574b4687464e5149554743508a50424448474243468443504150474b434f8f4c434a484f465043884849475943484243",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "50",
+              "option_value2": "61",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "15%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "28%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "17",
+              "option_value2": "17",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "84,74,68",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "179,200,53",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "피어싱 레벨",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "마족표 익스큐셔너스 소드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/765d6f2cc823590d652e3ca991bd9908?q=4b4548434448474287464e4650474843508a50424450474843488443504150485a445b8f4c43594a5c434d55884849584a444b4859",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 25000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "32",
+              "option_value2": "70",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "16%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "43%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "116,25,53",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "136,134,130",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "와인재료",
+      "item": [
+        {
+          "item_display_name": "블라고 누아",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/1a67480ff3641fb881c6d19163ef5b4c?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350525d495d425c8f4c435e4159454b52884849534e464f4543",
+          "price": [
+            {
+              "price_type": "골드",
+              "price_value": 50
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "블라고 누아",
+          "item_count": 10,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/1a67480ff3641fb881c6d19163ef5b4c?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350484d4560484f8f4c435b4144584f55884849445c48484b5b",
+          "price": [
+            {
+              "price_type": "골드",
+              "price_value": 500
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "블라고 누아",
+          "item_count": 20,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/1a67480ff3641fb881c6d19163ef5b4c?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350535d434f485f8f4c434d484d514b4c88484948494650434a",
+          "price": [
+            {
+              "price_type": "골드",
+              "price_value": 1000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "에란스 소비뇽",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b572ba90a770e7b95d0bb86c99684a7e?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435052474a50445a8f4c43594744584b4b8848494159424d434f",
+          "price": [
+            {
+              "price_type": "골드",
+              "price_value": 50
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "에란스 소비뇽",
+          "item_count": 10,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b572ba90a770e7b95d0bb86c99684a7e?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350424c4850445f8f4c434e414d554a4188484951504e4d4344",
+          "price": [
+            {
+              "price_type": "골드",
+              "price_value": 500
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "에란스 소비뇽",
+          "item_count": 20,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b572ba90a770e7b95d0bb86c99684a7e?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350445b5459445d8f4c434f42504e5f4588484946504650434c",
+          "price": [
+            {
+              "price_type": "골드",
+              "price_value": 1000
+            }
+          ],
+          "item_option": []
+        }
+      ]
+    },
+    {
+      "tab_name": "주머니",
+      "item": [
+        {
+          "item_display_name": "튼튼한 달걀 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/1d34c4779a0fd31b62ac98881726142e?q=4b455b545053475887464e434c465b484f8a5042435048425a41844350484f4a4957498f4c435951594e4b4c884849444c4249434f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 감자 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/3806a77a763b3482fb83a057bf3dd7ac?q=4b4549444f544c4387464e464b4f4a53508a5042594560474b58844350484f454f435e8f4c4349534d544943884849424b4750454a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 옥수수 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/e0badcd7b7603a9fc326de8fa966808f?q=4b454b514e45485587464e435f574d484c8a504260564f41434484435055475459444f8f4c434a47495147428848494a5a464d4649",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 밀 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/798abb3deae72b30a8b66892ed9e016b?q=4b454c475053494787464e575f5650544a8a504260445c4a5942844350424d424b45478f4c434f424e4d4d46884849584f434f425e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 보리 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/877518f84a451c86eb5123b78ce46bb7?q=4b454d5849474d4187464e5444545b4a5a8a50424c434c5144428443504850455c4d5d8f4c4348444e4d5e46884849584c42474843",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 양털 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/306d6c0f2b0a3ec8212f0d13b9f27529?q=4b455d415b435b4a87464e455f545d53448a50424e5649564d47844350484f514e555f8f4c4348514d475051884849424b46504259",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 거미줄 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/8ae4f78b25835092c042cac4562adfc0?q=4b455f4c5050494187464e5559534e554b8a50424c4760545c51844350424c424b464c8f4c434f4259484b48884849584d4e5c4549",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 가는 실뭉치 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4698abace8828b9aeff943da5503b87a?q=4b4550475a455c5487464e4b50574d544d8a50425f4f4f424d48844350524e425d424e8f4c4349554d454a48884849554d41474143",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 굵은 실뭉치 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/dcb81720048f467da969485e3669c41b?q=4b455e424a43474587464e584c5250564e8a50425e535c415f428443504149435d42508f4c434f4250574e4b8848495843584e4760",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 저가형 가죽 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/abcad089f0a5d0bae67d6f3e333f6131?q=4b455f575a415e4387464e4c5b5648534d8a50424d5447454354844350534e424b424f8f4c435b5160525d58884849424b4650474e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 일반 가죽 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/618391328d8dbe9312bc3171df1e5718?q=4b45474244484e5387464e555a4f5e54438a50425b464a4a5041844350544a514a57478f4c434b454b464e55884849484c454d455b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 고급 가죽 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/648653a2dd03a1bfe3ab8070d5c60e0e?q=4b454c575b565e4987464e524a424c475d8a50424d524c414c448443504447465c444d8f4c43595860415c4288484946444e5a5259",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 최고급 가죽 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6206df2f353c88fc87b0b5082fa9b3e1?q=4b455c5159484e4987464e554f555b4a608a50424d524c424f57844350415e424b47498f4c43594744524e558848495844584c425a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 저가형 옷감 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/8fa7451aec4ab5f96b6aec46e7dbb523?q=4b455b465056485587464e5144435d514f8a50424e504b584a46844350415e434f424e8f4c4348424e574e488848494550485b434c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 일반 옷감 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/34eab50f55ac0faeb9b8b23f59e79416?q=4b4549474f41604387464e5260544e565a8a50425e435b444454844350484f545c544f8f4c43594644514c52884849474a434f464a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 고급 옷감 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/98ac624accb9fd7d117d1eb4d0bf22d9?q=4b455e454f534c5887464e574a4349454b8a50424e474c4450528443504f4e5460415d8f4c43604459484955884849494a455f424b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 최고급 옷감 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/819c3bf40c94a9a6e0068e4aaf2ee3fb?q=4b455a4c60455d4887464e584b5559534f8a50425e474a544458844350575b544952478f4c434f55494d4946884849544b4650414a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 저가형 실크 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/f1b52a2d8f445117605ee9403e95da9e?q=4b454a484e43494887464e455b574753498a50424c504a554451844350525c5159485f8f4c4349454b464c44884849585c4d50474b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 일반 실크 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/5b385eea8abd961ca547f1a7fce429c9?q=4b45494b4e50494387464e424b4f4a494a8a50425f444a4543418443504250424b415f8f4c43495544484d45884849424a585e525a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 고급 실크 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/ead0f110c5139356446221d0fbca345d?q=4b455a555e52595887464e4560425b485d8a50424f534c51504684435052474750425d8f4c434b4559474757884849495f434d414b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 최고급 실크 주머니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/3c262ec26d773611fd7c544b98e72cc7?q=4b455c4759525e5587464e5760544f54508a50424e5760545c4e844350484f455a485e8f4c43594a44584e55884849424b415e4543",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "튼튼한 꽃바구니",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4133467e8183dd031b241c65a940f8c1?q=4b4549455a464b4387464e475043504a4f8a504244545d475f51844350464e544b435b8f4c435c4a4b464b57884849424b415a464b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        }
+      ]
+    },
+    {
+      "tab_name": "일반",
+      "item": [
+        {
+          "item_display_name": "키 높이 깔창(7일) 상자",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b6040a727f87d7fa45ef7d305026474e?q=4b4548434448474287464e4b4c504f4a4b8a50424448474243468443505247495c555b8f4c434a444e454941884849425d5850514f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "티어드롭 젬스톤",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/60ef45addbb9d9e4920a59f3d9f147a2?q=4b4548434448474287464e464b425e485a8a50424c48484159418443504f4b434f42508f4c434f4144575f45884849495f444c4359",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 35000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "교역상인 소재집",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/61a8ba3d0c7885c711e28f8912e29677?q=4b45494c4a554d4387464e51504f5d544a8a50425e5259585d548443504148415c4e508f4c4349474a454d448848495843555d445e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "121,44,35",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "180,155,179",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "255,255,255",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "악기 도색 스프레이",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/02ef2fbd0aa55483e4e0138a36407606?q=4b455c4b4d48605587464e4b4c504f4a4b8a50425b575d424e4e8443505749455a48498f4c4359585d464d57884849424b4e5d5259",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "팔리아스의 이슬",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/347305be486f978461fa8a471d57f4dc?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435042604a44484b8f4c435d434b4e4c58884849485a445a464c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 630000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "팔리아스의 빗방울",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/8f9f84b44c6054140b929e91e0366a86?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350524e494c434f8f4c43484843445e558848494443435a545e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 630000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "팔리아스의 폭풍",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/556ca6c90bfb15c2be305281b2a692c0?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350454d424b474e8f4c4360454b544d47884849474f524f554e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "여행자 의상 (여성용)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/109a95ead55465bc947ff6243b1df1b6?q=4b454f484f445d4187464e4c4d504f4a4c8a504243455e445a4384435052595844525a8f4c43485450465f438848495544575b434c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "21,84,177",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "151,128,129",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "147,194,199",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "여행자 의상 (남성용)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4b5f954b40019e5631370be60f7a25d8?q=4b455e4c5b505d4687464e454b445c4a608a50425e5459465f4e84435052595559554b8f4c434a4844464954884849465944494859",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2500
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "185,168,180",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "97,78,142",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "253,244,216",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "푸른 개조석",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b6e681e1071a1ad4c5e2e2b377113a98?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350554a5660544d8f4c4359454e484a44884849535f445a4b44",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "붉은 개조석",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/7446d9be57445213b2ac31d0179e1a8a?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350524a494348498f4c434e41504d4b4488484958504d4a515b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 250000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "붉은 투창 (이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/8dae4e886d8773081d86d2f097ca4af2?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435048504a4c57498f4c435d455a544c4b8848495860515c4143",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 180000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "노란 투창 (이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/05c586748d224cca273adfa01ad14e64?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350434a544c44498f4c435d495a435b47884849454b41474544",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 30000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "큰 분노 (이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fe6631ae3258637a2a14c60a2f273d41?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350525e5649415a8f4c434d454d555f46884849544e4d4d464f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 20000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마법의 솥 (이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b4a39c97a5847cb64d8074c3967fbcf3?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350554a554e514f8f4c434f4144434b44884849535f46504160",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "작은 분노 (이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/06dcf1c587abe16569893797c1128a7d?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350484f46494e488f4c434a515a445a43884849444e555f524d",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 20000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마법의 곤봉(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/7d60ac3746293a9af4f10adb144bcb17?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350524b485f434b8f4c434f424347484b884849585c555a5144",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 10000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "파리니스(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/dbb625f3ca74dd1757db23b46459cd3c?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350545d514e415c8f4c434f424b464c54884849474a434d4650",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 10000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마법의 흉갑(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6743acf58e079bab009cf0819bfa94f5?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350484f494e55478f4c43474a4b414957884849565c515a554f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 30000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "황금 사과(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/d704a4d30b761a2175aa7af5506faf65?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350524a494348498f4c4359585a4e49588848495560554e4260",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 140000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "와드네(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/d09c9392e4c0188acf27e7b6a3d61934?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350524b474b434f8f4c434d43494249528848494660584e455e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "진실의 컵(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/dd07164a26b6269ff9b16f5f4061f1be?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350445d474b554e8f4c4360555f474b57884849424b444e4160",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "수면의 지팡이(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6dfeb13b425f0095e709f3ff9dd4bc21?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350504d534e515a8f4c4359565c444a54884849424b554a465e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 50000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "파도의 진정(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/985bc71ec41f8e142842992dff175858?q=4b4548434448474287464e4b4c504f4a4b8a50424448474243468443505249565d515d8f4c4349554d444a42884849485d445c454d",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 380000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "황금 사슬 갑옷(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/73d6a6172c205c23d111eeee238206ea?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435052494959474e8f4c4359535f575c488848494860415f485b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 50000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "구이 꼬챙이(이데아)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/07c1de228e5f54f8eeb816a14dce00a0?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350434f4159434c8f4c434a484d435043884849484f4847454c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 90000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "아라트의 결정",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/791ececf4cad810417d9451da8fb08df?q=4b4548434448474287464e4b4c504f4a4b8a50424448474243468443505759475d58478f4c434e4150524d448848495843554d4244",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 4000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "아라트의 결정",
+          "item_count": 10,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/791ececf4cad810417d9451da8fb08df?q=4b4548434448474287464e4b4c504f4a4b8a5042444847424346844350525d534b415d8f4c434f424f544a51884849424d434f5144",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 40000
+            }
+          ],
+          "item_option": []
+        }
+      ]
+    },
+    {
+      "tab_name": "퀘스트",
+      "item": [
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350534e414b414d8f4c43505359485d58884849585d574e414f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "약탈자 퇴치 No.1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d84435055474a5a44478f4c435d4143485e5488484958504d4d545e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "약탈자 퇴치 No.2",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350484f544d514b8f4c43494150574a45884849585d544c575f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "약탈자 퇴치 No.3",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350525e4a43485b8f4c4359425d415b41884849424b4d5f4b4a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "섬의 비밀 No.1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d84435043475459425b8f4c43594943444a4c884849455c444f434c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 600000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "섬의 비밀 No.2",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d8443504f4d4743484c8f4c43594959424b58884849454f445f484e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "열광의 류트",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350574b514d4e5e8f4c4348545f4747518848495849455b485b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "열광의 만돌린",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350524a475c414e8f4c4350584b464e45884849494345484b59",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "열광의 우클렐레",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d8443505350556057488f4c4359545a455d438848495860585c4249",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 640000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "절망의 플루트",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350484f484b48498f4c435d434b464d4c884849465d4650425e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 640000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "슬픔의 샬루모",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d8443504f5b535d42498f4c434a434a4550438848495859584b4844",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 640000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "즐거움의 론카도라",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d8443505250415d435e8f4c43494359464c41884849424b4d5b4743",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 640000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "칭찬의 큰 북",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d844350505c474a584b8f4c434a4a59414d55884849534c434d4149",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 320000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "환호의 작은 북",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d8443504f5e535c425f8f4c434b544a4d4a44884849414a4348454c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "열광의 심벌즈",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "수집 퀘스트",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6e5b0f671e5b54278d4ab156ec3401f6?q=4b455d525950605487464e545a485c445a8a50424a4f48564c4d8443505250514b475f8f4c43594744444e41884849584e4d474144",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 320000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "퀘스트 종류",
+              "option_sub_type": null,
+              "option_value": "존경의 피시스 튜바",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "한정상품",
+      "item": [
+        {
+          "item_display_name": "인챈트 스크롤 - 사악한",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/f0781407f0d8e07f01c7dab84247e329?q=4b455e4c5a46484387464e454f424f51598a50424c4849554a42844350445b494b575c8f4c434f4459475b5488484956434650455a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 10000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구도",
+              "option_sub_type": null,
+              "option_value": "100%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "인챈트 종류",
+              "option_sub_type": "접미",
+              "option_value": "사악한 (랭크 A)",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "인챈트 스크롤 - 소름끼치는",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/f0781407f0d8e07f01c7dab84247e329?q=4b455e4c5a46484387464e415e455948508a50425e4f60494f518443505547554c554b8f4c435e474b454e46884849424b4d5d454b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 10000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구도",
+              "option_sub_type": null,
+              "option_value": "100%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "인챈트 종류",
+              "option_sub_type": "접미",
+              "option_value": "소름끼치는 (랭크 9)",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "베놈 소드",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/43b2485c9b31e642461368ea924c71c9?q=4b455f444342474a87464e4c4e4f49494d8a5042434248494448844350424a445a44508f4c4347414d474d418848494350464f4859",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 6000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "30",
+              "option_value2": "80",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "5%",
+              "option_value2": "10%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "40%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "45%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "17",
+              "option_value2": "17",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "161,150,136",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "150,150,150",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "150,153,146",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "머시 메이스",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/0776b5bc076c9307a86eca90c8a2356a?q=4b455e475a435d4787464e464d4f4c45608a50425b455b535f54844350484f435a445b8f4c434746504e4d438848494849554a425e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "55",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "5%",
+              "option_value2": "10%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "15%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "25%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "180,181,183",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "119,149,94",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "화이트윙 스태프",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/1ec72e17d3bf0946fa6477805ab07a5f?q=4b454a444d42485587464e4c5f4f4e4a4f8a50424e444b434a54844350524c5150475c8f4c4347414b464d42884849474b4650414a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "24",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "20%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "40%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "97,118,158",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "158,147,132",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "100,67,63",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "하프",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/038d625857787502310b2c60eec89750?q=4b455b455050475687464e585a545b46448a50425f554a584d418443504448465c445d8f4c434a444e444d578848494960454d474f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 5000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "40",
+              "option_value2": "40",
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "브레이스 너클",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/053f311bb0659f2eb1a5f1de18322a8b?q=4b45475250474d5887464e475b4460465c8a5042594f5e495a4d8443504f4e48444e498f4c434f4144554b5588484958434d4b4759",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "20",
+              "option_value2": "40",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "22%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "18%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "156,65,47",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "74,74,74",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "201,201,201",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "리라",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fb385e6695805f58cd845ba4952a226c?q=4b4548475a46485187464e4243454843448a504260424d514f43844350414e4844425e8f4c4360584b554d46884849584c434e414e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "3",
+              "option_value2": "7",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "15%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "50%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "40",
+              "option_value2": "40",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "132,178,154",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "57,57,57",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "쥬얼드 마리오네트 핸들",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/690ac3089bef913d9208c137d9518bc1?q=4b454c4649504e5487464e475a445c454a8a50425e445d555a55844350474c44604e508f4c435c4a5c574c52884849435d4448454b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "13",
+              "option_value2": "20",
+              "option_desc": null
+            },
+            {
+              "option_type": "부상률",
+              "option_sub_type": null,
+              "option_value": "0%",
+              "option_value2": "20%",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "10%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "10%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "15",
+              "option_value2": "15",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "71,56,59",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "75,78,83",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "244,190,202",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "문라이트 드림캐쳐",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/4003e8ddb3e1d27e8d15be043d17a65a?q=4b4547585b415b4587464e4660445b49438a50424d484a5844488443504260444a4e5c8f4c434f415c575e46884849474d4e5d424f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "공격",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "24",
+              "option_desc": null
+            },
+            {
+              "option_type": "크리티컬",
+              "option_sub_type": null,
+              "option_value": "13%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "밸런스",
+              "option_sub_type": null,
+              "option_value": "40%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "158,167,213",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "125,77,152",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "112,127,146",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "피아노",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/845b564c1c4a215663094679f7f4ac41?q=4b45484c50534f4287464e555b504a54498a50425b46485159528443505559494b455b8f4c434a4a5a545c46884849424c425b4c4e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 5000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "40",
+              "option_value2": "40",
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "드럼",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/a29def0b22ae9765642e97144b78adae?q=4b455c544350485187464e5550414f494d8a50425a474a564455844350475e5449575f8f4c43505849524844884849465a434c4150",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 5000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "40",
+              "option_value2": "40",
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "로얄 다이아몬드 가죽 경갑옷(남성용)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/a9379dddf3033fc631f1856cbb10d068?q=4b455c4c50454c5887464e455f414d48438a50424e574c435048844350444e484e415d8f4c434d475c544943884849424b415a4b5f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "9",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "보호",
+              "option_sub_type": null,
+              "option_value": "5",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "217,67,95",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "110,114,104",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "106,83,82",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "로얄 다이아몬드 가죽 경갑옷(여성용)",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/9d03f70cebbcea5291c59bd4db32ffce?q=4b454a4450434c4587464e464b445e534c8a50425f565c4350438443505259584f585f8f4c435b5859424f41884849424b424a464c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "9",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "보호",
+              "option_sub_type": null,
+              "option_value": "5",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "16",
+              "option_value2": "16",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "97,69,85",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "113,76,193",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "235,227,87",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "로얄 다이아몬드 가죽 경갑 건틀렛",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/d60186f7148da298184b4a734f97537a?q=4b454a514957504687464e484f4160534d8a5042595748434e41844350524a494f475b8f4c435e54504e4e42884849534c46504b49",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "보호",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "12",
+              "option_value2": "12",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "107,58,20",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "85,122,198",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "202,147,117",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "로얄 다이아몬드 가죽 경갑 부츠",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/11214beb65fae07c23716c039925367f?q=4b454c4549454d4987464e43595748514e8a504259425b47435284435041494949434a8f4c4359545a4e5d518848494749424b485b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "보호",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "12",
+              "option_value2": "12",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "70,51,41",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "12,169,167",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "198,215,141",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "로얄 다이아몬드 가죽 경갑 투구",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/2b1ef58ac074664cea51fde0a512dc28?q=4b454a524947505887464e5750574a534c8a50424c4860446044844350545e4759484a8f4c4347485c455c478848495843554f4243",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "보호",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "14",
+              "option_value2": "14",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "108,49,31",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 B",
+              "option_value": "212,167,193",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 C",
+              "option_value": "0,162,230",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "인챈트 스크롤 - 결투의",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/f0781407f0d8e07f01c7dab84247e329?q=4b455e4c5a46484387464e445e554f56608a50424e5449554d4184435042494860425f8f4c43594a44424842884849585c584c484b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1200000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구도",
+              "option_sub_type": null,
+              "option_value": "100%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "인챈트 종류",
+              "option_sub_type": "접두",
+              "option_value": "결투의 (랭크 9)",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "인챈트 스크롤 - 주먹의",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/f0781407f0d8e07f01c7dab84247e329?q=4b455e4c5a46484387464e524a504b47508a50425b4750414d42844350524c4949444b8f4c435c565f4d5b54884849424b554f475e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 900000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구도",
+              "option_sub_type": null,
+              "option_value": "100%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "인챈트 종류",
+              "option_sub_type": "접두",
+              "option_value": "주먹의 (랭크 A)",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "인챈트 스크롤 - 모데라토",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/f0781407f0d8e07f01c7dab84247e329?q=4b455e4c5a46484387464e434c4547474b8a50425a535e484d46844350464e435d464f8f4c4359535f455d45884849454348504660",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 800000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "내구도",
+              "option_sub_type": null,
+              "option_value": "100%",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "인챈트 종류",
+              "option_sub_type": "접두",
+              "option_value": "모데라토 (랭크 A)",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "허브 가방",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/c4655d1c76eb29b0bbe896fd17639be7?q=4b454b4149534a4187464e454b444c45508a50424448474243468443504159515a47498f4c434b4550524a52884849424b555d5749",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 130000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "보석 가방",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/1a18bd4227244adf61e4c05f64d68247?q=4b4548414e524a4487464e58445760475f8a5042444847424346844350474e454d4e4d8f4c435d414b454947884849565d465a4b5e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 130000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "수수한 세공 도구",
+          "item_count": 1,
+          "limit_type": "주간",
+          "limit_value": 3,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/958ef0839203226c91d9da1444e6073d?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435042484859445b8f4c434e424b464c458848495343575e4859",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 350000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "로열 아카데미 크리스탈",
+          "item_count": 1,
+          "limit_type": "일간",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/bb0699ec4adae3e3b01af99c2e10e9a8?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435046494a4942508f4c43494150414a4888484958444d5e484c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 500000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "퍼펙트 무료 수리 키트",
+          "item_count": 1,
+          "limit_type": "일간",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/027d5655c490f9c7fb981faecadfa971?q=4b4548434448474287464e4b4c504f4a4b8a504244484742434684435052604a5c485e8f4c43485559454a48884849564a585e485f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 100000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "처음하는 교역 오거 브로치",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 10,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/ac53dbdbe3226f6e399808501997f300?q=4b4548434448474287464e485a554b544f8a5042434f47444344844350555e55494d4d8f4c4349534e464a52884849424b445c424c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 40000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "방어력",
+              "option_sub_type": null,
+              "option_value": "2",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "내구력",
+              "option_sub_type": null,
+              "option_value": "5",
+              "option_value2": "5",
+              "option_desc": null
+            },
+            {
+              "option_type": "아이템 색상",
+              "option_sub_type": "파트 A",
+              "option_value": "128,128,128",
+              "option_value2": null,
+              "option_desc": null
+            },
+            {
+              "option_type": "인챈트",
+              "option_sub_type": "접두",
+              "option_value": "처음하는 (랭크 9)",
+              "option_value2": null,
+              "option_desc": "교역 마스터리 랭크 C 이상일 때 신용도 상승률 1.0% 증가"
+            },
+            {
+              "option_type": "인챈트",
+              "option_sub_type": "접미",
+              "option_value": "교역 (랭크 9)",
+              "option_value2": null,
+              "option_desc": "교역 마스터리 랭크 A 이상일 때 교역물품 구매 할인율 1.0% 증가"
+            }
+          ]
+        },
+        {
+          "item_display_name": "은행 한도 확장 기간 이용권(5억)(30일)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/17043fe76734b65280d96be4c4007561?q=4b4548434448474287464e465e554d464c8a50424e544f424b5784435042494860584c8f4c435d445f444941884849464b444d4649",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 10000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "원격 수표 발행권(3억)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/edee18e34b19def330c18fd04cda9081?q=4b4548434448474287464e484b46494a5a8a50425e5259455a47844350534c514d41508f4c4360564e455e438848494349464f485b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2000000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "콤보 카드 연장권 (30일)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/586f5d11b2f380d85ea6a07660c619f1?q=4b4548434448474287464e434f504a4a498a50425e5760475042844350524d495d47498f4c434a434e474947884849564a525d554c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "콤보 카드 부활권 (30일)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/932961bae63d78388f0da314649d28ea?q=4b4548434448474287464e434b575e56498a50424c4848544355844350524d4549475e8f4c4349554d554b55884849554d4e5e414f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 2500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 낙타(임볼릭)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/185bc5499ae7dfa716ba5a5e258b6917?q=4b455a5560504f4287464e4b4c504f4a4b8a5042444847424346844350504a444c44508f4c434f414f424754884849475d4650454f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 4500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 개썰매(임볼릭)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/8cd35d1fdab46edead4067a1da75bbb5?q=4b455a5560504f4287464e4b4c504f4a4b8a5042444847424346844350575c425c48488f4c434f4a434748418848495443474f4b5e",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 4500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 부유선(임볼릭)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b2f5ad0730479ce37798c96054faa3d4?q=4b455a5560504f4287464e4b4c504f4a4b8a50424448474243468443504f5d545047508f4c43605850585f48884849424c444b5444",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 15000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 낙타(알반 에일레르)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/66b53cb5bed5c7032f7c112729b0a2e7?q=4b455a5560504f4287464e4b4c504f4a4b8a50424448474243468443505250565d515b8f4c4350554c424a548848494649485f454a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 4500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 개썰매(알반 에일레르)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/ec3e9d941e007dd2d9a6cff9b591ed8f?q=4b455a5560504f4287464e4b4c504f4a4b8a5042444847424346844350414d514b474d8f4c434f414e515e52884849465f5847484d",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 4500000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 부유선(알반 에일레르)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/e16789770e747298b5ab3e5b48f488bd?q=4b455a5560504f4287464e4b4c504f4a4b8a5042444847424346844350425c454e415a8f4c4359435d415d43884849535d4d5d5243",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 15000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 비행범선(알반 에일레르)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/a206842ac9fce70a52cde3e7c5b7b399?q=4b455a5560504f4287464e4b4c504f4a4b8a5042444847424346844350524f424a42488f4c4349444d574b448848495360415c4150",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 150000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "교역 운송 수단 추가 외형 티켓 - 비행범선(임볼릭)",
+          "item_count": 1,
+          "limit_type": "시즌",
+          "limit_value": 1,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/89651048672f3c325a034d9d5f065bca?q=4b455a5560504f4287464e4b4c504f4a4b8a50424448474243468443504559424b425b8f4c4348584d4e505488484958434e49475a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 150000000
+            }
+          ],
+          "item_option": [
+            {
+              "option_type": "남은 거래 횟수",
+              "option_sub_type": null,
+              "option_value": "1",
+              "option_value2": null,
+              "option_desc": null
+            }
+          ]
+        },
+        {
+          "item_display_name": "낚시통 교환권",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/29c0db86939ca31689db97df6a245763?q=4b455a5560504f4287464e555e5447424b8a50425e525b4a4b46844350435e455f55478f4c4359535a524b478848494a4f4847474d",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": []
+        }
+      ]
+    },
+    {
+      "tab_name": "펫하우스",
+      "item": [
+        {
+          "item_display_name": "구름 방석(1단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/e2bac83f355a7d829a6eb4500106e44a?q=4b4548434448474287464e5550414e47438a50425b474c554f44844350554e534448498f4c434d4344575d43884849534d555c455a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 50000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "구름 방석(2단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/07815a74026a48b48a34ff6166cb066e?q=4b4548434448474287464e5550414e47438a50425b4448554451844350435e534452488f4c434a494b464b478848494860415f4549",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 150000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "구름 방석(3단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b690b830f5369e4558739bc79bbd0176?q=4b4548434448474287464e5550414e47438a50425e525d584b468443504449424d46508f4c4359585d415e438848495450575a4744",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "구름 방석(4단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/66d200244c111112bb91730c1006fc7f?q=4b4548434448474287464e5550414e47438a504259485e486057844350555d554452478f4c435944504249518848495160465f4760",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "중형펫 잔디밭(1단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6489f58cf5027eb5b1acb720e2afa26f?q=4b4548434448474287464e555e554f424b8a50425b474c554f44844350434e424b47478f4c43594a444e4c55884849434c4447484c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 50000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "중형펫 잔디밭(2단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/3c31531352f18370e526093e561df31d?q=4b4548434448474287464e555e554f424b8a50425b4448554451844350484f484942488f4c43495850474b57884849474d445e4749",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 150000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "중형펫 잔디밭(3단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fabb7a14232aeb14c596413cbd8ece86?q=4b4548434448474287464e555e554f424b8a50425e525d584b46844350434d424b484e8f4c4359464f4e4b5188484944434650475f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "중형펫 잔디밭(4단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/5401ecd69be4c9fe668ed2b73379bc2e?q=4b4548434448474287464e555e554f424b8a504259485e4860578443505548534c44508f4c4347434c414846884849424b425a414f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "대형펫 잔디밭(1단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/47e38e54748db8a44c4574d4120c9c6d?q=4b4548434448474287464e555e524a484d8a50425b474c554f44844350414e474a43508f4c43495850474b42884849545f525e5549",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "대형펫 잔디밭(2단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/5ef59fbd78d281189ce63487ac0b5ae9?q=4b4548434448474287464e555e524a484d8a50425b44485544518443505449555d515a8f4c435e414e514957884849494c4650484c",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "캣타워(1단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/fc4c88c5176b45a5a9219d30836b27d6?q=4b4548434448474287464e4c505447584d8a50425b474c554f448443504248445f4d4d8f4c4359545c4e48518848494a49434a514d",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 150000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "캣타워(2단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/199f9f0ef00f3a937ed29d97f73566ea?q=4b4548434448474287464e4c505447584d8a50425b44485544518443504f4b474346508f4c434f5443455f42884849424b414b4b60",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "캣타워(3단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/6c38210542b5b5c9befca45862324208?q=4b4548434448474287464e4c505447584d8a50425e525d584b46844350484f494c44478f4c434f4250484c45884849475d585b484a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "캣타워(4단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/b4e3c99844c4297908921bd651cbea54?q=4b4548434448474287464e4c505447584d8a504259485e486057844350484f455048508f4c4349534b444941884849565c584c444a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마구간(1단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/beb5e576548baddff94fc6b89510ea43?q=4b4548434448474287464e524d504c53438a50425b474c554f44844350484f464a445a8f4c434f4259474852884849544b445b545f",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 150000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마구간(2단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/ebe5d16ac8ef7ce1a404d71882584739?q=4b4548434448474287464e524d504c53438a50425b4448554451844350564f4a4b45508f4c434a4950464855884849424b585f575a",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 400000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마구간(3단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/97a9d16481d47fa75f125a517466e4a0?q=4b4548434448474287464e524d504c53438a50425e525d584b46844350414b474a434c8f4c435b475f555b55884849584e4e5d4760",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 750000
+            }
+          ],
+          "item_option": []
+        },
+        {
+          "item_display_name": "마구간(4단계) 설계도",
+          "item_count": 1,
+          "limit_type": null,
+          "limit_value": null,
+          "image_url": "https://open.api.nexon.com/static/mabinogi/img/012c09ccd174a920e2f34b850e3bdff7?q=4b4548434448474287464e524d504c53438a504259485e486057844350544f4959574a8f4c435d415f545d4c884849495a554c415b",
+          "price": [
+            {
+              "price_type": "두카트",
+              "price_value": 1000000
+            }
+          ],
+          "item_option": []
+        }
+      ]
+    }
+  ],
+  "date_inquire": "2024-10-24T23:13:47.453Z",
+  "date_shop_next_update": "2024-10-24T23:24:00.000Z",
+  "shop_tab_count": 7
+}
