@@ -22,9 +22,9 @@ jobs:
           echo "${{ secrets.EC2_KEY }}" > key.pem
           chmod 600 key.pem
           ssh -o StrictHostKeyChecking=no -i key.pem $EC2_USER@$EC2_HOST << EOF
-            cd milletianapiserver/
+            cd back/
             git pull
             npm install
-            pm2 restart apiserver
+            pm2 restart www
             echo "Deployment and server restart completed."
           EOF
