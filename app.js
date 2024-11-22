@@ -16,9 +16,20 @@ const {totalGet} = require("./dbms/cron");
 
 const app = express();
 
-cron.schedule('5,41 * * * *', async () => {
-  console.log("get start")
-  totalGet()
+const CYCLE_DURATION = 36 * 60 * 1000; // 36분(밀리초)
+const FIVE_MINUTES = 5 * 60 * 1000;    // 5분(밀리초)
+
+cron.schedule('* * * * *', () => {
+  const now = Date.now()
+  const startOfDay = new Date(now).setHours(0, 0, 0, 0);
+  const cycle = Math.floor((now - startOfDay) / CYCLE_DURATION) + 1;
+
+  const cycleStartTime = startOfDay + (cycle - 1) * CYCLE_DURATION;
+  const executionTime = cycleStartTime + FIVE_MINUTES;
+
+  if (now >= executionTime && now < executionTime + 60 * 1000) { // 5분 뒤의 1분 동안 실행
+    totalGet(); // 실행할 함수 호출
+  }
 });
 
 app.set('trust proxy', true);
