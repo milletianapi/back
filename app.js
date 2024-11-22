@@ -11,8 +11,15 @@ const usersRouter = require('./routes/users');
 const readRouter = require('./routes/read');
 const getDataRouter = require('./routes/getData');
 const totalGetRouter = require('./routes/totalGet');
+const cron = require('node-cron');
+const {totalGet} = require("./dbms/cron");
 
 const app = express();
+
+cron.schedule('5,41 * * * *', async () => {
+  console.log("get start")
+  totalGet()
+});
 
 app.set('trust proxy', true);
 
@@ -22,8 +29,6 @@ app.use((req, res, next) => {
   res.locals.isMobile = req.hostname.startsWith('m.');
   next();
 });
-
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

@@ -52,17 +52,33 @@ const totalGet = async () => {
     const date = new Date(now);
     const ymd = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
     let count = 0;
-    try{
-        const test = await axios.get(`https://open.api.nexon.com/mabinogi/v1/npcshop/list`,
-            { headers: {'x-nxopen-api-key': KEY},
-                params:{
+    let attempts = 0;
+    const maxAttempts = 3;
+
+    while (attempts < maxAttempts) {
+        try {
+            const test = await axios.get(`https://open.api.nexon.com/mabinogi/v1/npcshop/list`, {
+                headers: { 'x-nxopen-api-key': KEY },
+                params: {
                     'npc_name': encodeTrades[`bangor`],
                     'server_name': encodeServer[`lute`],
                     'channel': 1,
-                } });
-        if(test.status === 400){return `fail`;}
-    } catch {
-        return `fail`;
+                }
+            });
+
+            if (test.status === 200) {
+                break;
+            } else if (test.status === 400) {
+                console.log(`Attempt ${attempts + 1}: 400 error received.`);
+            }
+        } catch (error) {
+            console.log(`Attempt ${attempts + 1}: Request failed. Retrying...`);
+        }
+
+        attempts++;
+        if (attempts < maxAttempts) {
+            await new Promise(resolve => setTimeout(resolve, 60000)); // 1분 대기
+        } else {return "failed";}
     }
 
      for (const server of serverOptions) {
