@@ -1,10 +1,12 @@
 var express = require('express');
 const path = require("path");
+const {getall} = require("../dbms/getall");
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.sendFile(path.resolve(__dirname, '../dist2', 'test.html'));
+router.get('/', async function(req, res, next) {
+
+  res.send(await getall())
 });
 
 module.exports = router;

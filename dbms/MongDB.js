@@ -9,6 +9,8 @@ const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/
 const mongo = new mongodb.MongoClient(uri);
 let client = mongo.db('mabi').collection('pouches');
 let viewClient = mongo.db('mabi').collection('views');
+let visitClient = mongo.db('mabi').collection('visit');
+const totalClient = mongo.db('mabi').collection('total');
 
 let data = {
     "_id": "",
@@ -111,6 +113,21 @@ const readData = async (date, cycle, server, channel, trade) => {
     return result;
 }
 
+const visit = async () => {
+    try {
+        const date = new Date(); // 현재 날짜로 date 객체 생성
+        const ymd = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
+        await visitClient.findOneAndUpdate(
+            { _id: ymd },
+            { $inc: { viewCount: 1 } },
+            { upsert: true }
+        );
+    } catch (error) {
+        console.error("Error updating view count:", error);
+    }
+};
+
+
 const viewCount = async () => {
     try {
         const date = new Date(); // 현재 날짜로 date 객체 생성
@@ -130,4 +147,4 @@ let result = await client.insertOne(data);
 console.log(`새로운 문서 ID: ${result.insertedId}`);
 }
 
-module.exports = {mongo, saveData, readData, getData, viewCount}
+module.exports = {mongo, saveData, readData, getData, viewCount, totalClient, visit}
