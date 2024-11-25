@@ -125,7 +125,7 @@ const deleteAndRefetchDocuments = async (currentCount, currentCycle) => {
         await totalGet(); // 다시 받기
     } else {
         const previousCycle = (currentCycle - 1) > 0 ? (currentCycle - 1) : 40;
-        await totalCollection.deleteMany({ cycle: previousCycle-1 });
+        await totalCollection.deleteMany({ cycle: previousCycle });
     }
 };
 
