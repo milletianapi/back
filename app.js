@@ -13,23 +13,38 @@ const getDataRouter = require('./routes/getData');
 const totalGetRouter = require('./routes/totalGet');
 const cron = require('node-cron');
 const {totalGet} = require("./dbms/cron");
+const {colorstats} = require("./dbms/stats");
+const {deleteAndRefetchDocuments} = require("./dbms/MongDB");
+const mongodb = require("mongodb");
 
 const app = express();
 
 const CYCLE_DURATION = 36 * 60 * 1000; // 36분(밀리초)
-const FIVE_MINUTES = 5 * 60 * 1000;    // 5분(밀리초)
+const FIVE_MINUTES = 5 * 60 * 1000;
+const SIX_MINUTES = 5 * 60 * 1000; // 5분(밀리초)
 
-cron.schedule('* * * * *', () => {
+cron.schedule('* * * * *',  async () => {
   const now = Date.now()
   const startOfDay = new Date(now).setHours(0, 0, 0, 0);
   const cycle = Math.floor((now - startOfDay) / CYCLE_DURATION) + 1;
 
   const cycleStartTime = startOfDay + (cycle - 1) * CYCLE_DURATION;
   const executionTime = cycleStartTime + FIVE_MINUTES;
+  const statsTime = cycleStartTime + SIX_MINUTES;
+  const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+  const mongo = new mongodb.MongoClient(uri);
+  const totalClient = mongo.db('mabi').collection('total');
 
   if (now >= executionTime && now < executionTime + 60 * 1000) { // 5분 뒤의 1분 동안 실행
-    totalGet(); // 실행할 함수 호출
+    await totalGet();
+    await new Promise(resolve => setTimeout(resolve, 20000));
+    const currentCount = await totalClient.countDocuments({});
+    await deleteAndRefetchDocuments(currentCount, cycle);
+    await new Promise(resolve => setTimeout(resolve, 60000));
+    await colorstats();
   }
+
+
 });
 
 app.set('trust proxy', true);
