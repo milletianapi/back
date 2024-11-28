@@ -3,7 +3,7 @@ const axios = require('axios');
 const mongodb = require("mongodb");
 
 const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const mongo = new mongodb.MongoClient(uri).db('mabi');
+const mongo = new mongodb.MongoClient(uri,{maxIdleTimeMS: 30*60*1000}).db('mabi');
 const client = mongo.collection('pouches');
 const viewClient = mongo.collection('views');
 const visitClient = mongo.collection('visit');
