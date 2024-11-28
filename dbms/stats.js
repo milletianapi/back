@@ -1,7 +1,7 @@
 const mongodb = require("mongodb");
+const {mongo} = require("./MongDB");
 const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
-const mongo = new mongodb.MongoClient(uri);
 const db = mongo.db('mabi');
 const mabistatsDb = mongo.db('mabistats');
 const coloraClient = mabistatsDb.collection('colora');
