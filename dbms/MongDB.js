@@ -7,13 +7,7 @@ const {totalGet} = require("./cron");
 
 
 const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const mongo = new mongodb.MongoClient(uri,{
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    socketTimeoutMS: 30000,
-    serverSelectionTimeoutMS: 5000,
-    maxIdleTimeMS: 10000
-});
+const mongo = new mongodb.MongoClient(uri);
 const db = mongo.db('mabi');
 let client = mongo.db('mabi').collection('pouches');
 let viewClient = mongo.db('mabi').collection('views');

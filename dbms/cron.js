@@ -1,7 +1,6 @@
 const mongodb = require('mongodb');
 const encode = require("../query/combined_result.json");
 const axios = require('axios');
-const {mongo} = require("./MongDB");
 
 const channelOptions = {
     lute: Array.from({ length: 42 }, (_, i) => i + 1),
@@ -132,6 +131,8 @@ const totalGet = async () => {
      }
 }
 
+const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongo = new mongodb.MongoClient(uri);
 let client = mongo.db('mabi').collection('total');
 
 const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
