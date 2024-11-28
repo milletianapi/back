@@ -1,6 +1,6 @@
-const mongodb = require('mongodb');
 const encode = require("../query/combined_result.json");
 const axios = require('axios');
+const {totalClient} = require("./MongDB");
 
 const channelOptions = {
     lute: Array.from({ length: 42 }, (_, i) => i + 1),
@@ -43,6 +43,47 @@ function delay(ms) {
 }
 
 const KEY = 'live_338dbbe7d121fa299df2de7c28d5d974ada91ff22d2577b0886df5685d3d7ff7efe8d04e6d233bd35cf2fabdeb93fb0d';
+
+const getall = async (filter, options) => {
+    const count = await totalClient.countDocuments()
+    console.log(count);
+
+    const list = await totalClient.aggregate([
+        {
+            $match: {
+                "color.a": { r: 81, g: 175, b: 118 } // 원하는 a 컬러 값
+            }
+        },
+        {
+            $group: {
+                _id: {
+                    item_name: "$item_name",
+                    color: "$color"
+                },
+                event: {
+                    $push: {
+                        date: "$date",
+                        cycle: "$cycle",
+                        server: "$server",
+                        channel: "$channel",
+                        trade: "$trade"
+                    }
+                }
+            }
+        },
+        {
+            $project: {
+                _id: 0,
+                item_name: "$_id.item_name",
+                color: "$_id.color",
+                event: 1
+            }
+        }
+    ]).toArray();
+    console.log(list);
+    return list;
+}
+
 
 const totalGet = async () => {
     const now = Date.now();
@@ -131,9 +172,6 @@ const totalGet = async () => {
      }
 }
 
-const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const mongo = new mongodb.MongoClient(uri);
-let client = mongo.db('mabi').collection('total');
 
 const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
     const baseOffset = 86;
@@ -174,11 +212,23 @@ const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
     }
     // BulkWrite 실행
     if (bulkOps.length > 0) {
-        await client.bulkWrite(bulkOps);
+        await totalClient.bulkWrite(bulkOps);
     }
 };
 
+const deleteAndRefetchDocuments = async (currentCount, currentCycle) => {
 
-module.exports = {totalGet}
+    if (currentCount % 35904 !== 0) {
+        // 문서를 전체 삭제하고 다시 받기
+        console.log("문서 갯수가 35904로 나누어 떨어지지 않음. 전체 삭제 및 다시 받기");
+        await totalClient.deleteMany({});
+        await totalGet(); // 다시 받기
+    } else {
+        const previousCycle = (currentCycle - 1) > 0 ? (currentCycle - 1) : 40;
+        await totalClient.deleteMany({cycle: previousCycle});
+    }
+};
+
+module.exports = {totalGet, deleteAndRefetchDocuments, getall}
 
 

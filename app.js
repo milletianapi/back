@@ -12,10 +12,11 @@ const readRouter = require('./routes/read');
 const getDataRouter = require('./routes/getData');
 const totalGetRouter = require('./routes/totalGet');
 const cron = require('node-cron');
-const {totalGet} = require("./dbms/cron");
+const {totalGet, deleteAndRefetchDocuments} = require("./dbms/total");
 const {colorstats} = require("./dbms/stats");
-const {deleteAndRefetchDocuments} = require("./dbms/MongDB");
 const mongodb = require("mongodb");
+
+
 
 const app = express();
 

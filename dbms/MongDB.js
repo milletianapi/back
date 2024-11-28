@@ -1,18 +1,14 @@
-const mongodb = require('mongodb');
 const encode = require("../query/combined_result.json");
-const decode = require("../query/decode.json");
-const decode_item = require("../query/decode_item.json");
 const axios = require('axios');
-const {totalGet} = require("./cron");
-
+const mongodb = require("mongodb");
 
 const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const mongo = new mongodb.MongoClient(uri);
-const db = mongo.db('mabi');
-let client = mongo.db('mabi').collection('pouches');
-let viewClient = mongo.db('mabi').collection('views');
-let visitClient = mongo.db('mabi').collection('visit');
-const totalClient = mongo.db('mabi').collection('total');
+const mongo = new mongodb.MongoClient(uri).db('mabi');
+const client = mongo.collection('pouches');
+const viewClient = mongo.collection('views');
+const visitClient = mongo.collection('visit');
+const totalClient = mongo.collection('total');
+
 
 let data = {
     "_id": "",
@@ -115,19 +111,7 @@ const readData = async (date, cycle, server, channel, trade) => {
     return result;
 }
 
-const deleteAndRefetchDocuments = async (currentCount, currentCycle) => {
-    const totalCollection = db.collection('total');
 
-    if (currentCount % 35904 !== 0) {
-        // 문서를 전체 삭제하고 다시 받기
-        console.log("문서 갯수가 35904로 나누어 떨어지지 않음. 전체 삭제 및 다시 받기");
-        await totalCollection.deleteMany({});
-        await totalGet(); // 다시 받기
-    } else {
-        const previousCycle = (currentCycle - 1) > 0 ? (currentCycle - 1) : 40;
-        await totalCollection.deleteMany({ cycle: previousCycle });
-    }
-};
 
 
 const visit = async () => {
@@ -164,4 +148,4 @@ let result = await client.insertOne(data);
 console.log(`새로운 문서 ID: ${result.insertedId}`);
 }
 
-module.exports = {mongo, saveData, readData, getData, viewCount, totalClient, visit, deleteAndRefetchDocuments}
+module.exports = { saveData, readData, getData, viewCount, visit, client, viewClient, visitClient, totalClient}
