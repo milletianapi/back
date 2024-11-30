@@ -1,6 +1,6 @@
 const encode = require("../query/combined_result.json");
 const axios = require('axios');
-const {totalClient} = require("./MongDB");
+const {totalClient, groupClient} = require("./MongDB");
 
 const channelOptions = {
     lute: Array.from({ length: 42 }, (_, i) => i + 1),
@@ -229,6 +229,11 @@ const deleteAndRefetchDocuments = async (currentCount, currentCycle) => {
     }
 };
 
-module.exports = {totalGet, deleteAndRefetchDocuments, getall}
+const getGroupedPouch = async () => {
+    const group = await groupClient.find({}).toArray();
+    return group;
+}
+
+module.exports = {totalGet, deleteAndRefetchDocuments, getall, getGroupedPouch}
 
 

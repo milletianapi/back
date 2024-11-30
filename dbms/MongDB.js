@@ -8,6 +8,7 @@ const client = mongo.collection('pouches');
 const viewClient = mongo.collection('views');
 const visitClient = mongo.collection('visit');
 const totalClient = mongo.collection('total');
+const groupClient = mongo.collection('groupedpouches');
 
 
 let data = {
@@ -148,4 +149,4 @@ let result = await client.insertOne(data);
 console.log(`새로운 문서 ID: ${result.insertedId}`);
 }
 
-module.exports = { saveData, readData, getData, viewCount, visit, client, viewClient, visitClient, totalClient}
+module.exports = { saveData, readData, getData, viewCount, visit, client, viewClient, visitClient, totalClient, groupClient}
