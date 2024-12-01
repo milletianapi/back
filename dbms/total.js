@@ -229,8 +229,8 @@ const deleteAndRefetchDocuments = async (currentCount, currentCycle) => {
     }
 };
 
-const getGroupedPouch = async () => {
-    const group = await groupClient.find({}).toArray();
+const getGroupedPouch = async (query) => {
+    const group = await groupClient.find(query).toArray();
     return group;
 }
 
