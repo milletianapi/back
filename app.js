@@ -17,13 +17,11 @@ const {totalGet, deleteAndRefetchDocuments} = require("./dbms/total");
 const {colorstats} = require("./dbms/stats");
 const mongodb = require("mongodb");
 
-
-
 const app = express();
 
-const CYCLE_DURATION = 36 * 60 * 1000; // 36분(밀리초)
+const CYCLE_DURATION = 36 * 60 * 1000;
 const FIVE_MINUTES = 5 * 60 * 1000;
-const SIX_MINUTES = 5 * 60 * 1000; // 5분(밀리초)
+const SIX_MINUTES = 5 * 60 * 1000;
 
 cron.schedule('* * * * *',  async () => {
   const now = Date.now()
