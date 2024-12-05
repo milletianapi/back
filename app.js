@@ -20,6 +20,7 @@ const mongodb = require("mongodb");
 const app = express();
 
 const CYCLE_DURATION = 36 * 60 * 1000;
+const ONE_MINUTES = 1 * 60 * 1000;
 const FIVE_MINUTES = 5 * 60 * 1000;
 const SIX_MINUTES = 5 * 60 * 1000;
 
@@ -30,10 +31,16 @@ cron.schedule('* * * * *',  async () => {
 
   const cycleStartTime = startOfDay + (cycle - 1) * CYCLE_DURATION;
   const executionTime = cycleStartTime + FIVE_MINUTES;
+  const oneTime = cycleStartTime + ONE_MINUTES;
   const statsTime = cycleStartTime + SIX_MINUTES;
   const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
   const mongo = new mongodb.MongoClient(uri);
   const totalClient = mongo.db('mabi').collection('total');
+
+  if (now >= oneTime && now < oneTime + 60 * 1000) {
+    totalClient.deleteMany({});
+    mongo.close();
+  }
 
   if (now >= executionTime && now < executionTime + 60 * 1000) { // 5분 뒤의 1분 동안 실행
     await totalGet();
