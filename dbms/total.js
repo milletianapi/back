@@ -44,16 +44,9 @@ function delay(ms) {
 
 const KEY = 'live_338dbbe7d121fa299df2de7c28d5d974ada91ff22d2577b0886df5685d3d7ff7efe8d04e6d233bd35cf2fabdeb93fb0d';
 
-const getall = async (filter, options) => {
-    const count = await totalClient.countDocuments()
-    console.log(count);
-
+const getall = async () => {
+    await groupClient.deleteMany({});
     const list = await totalClient.aggregate([
-        {
-            $match: {
-                "color.a": { r: 81, g: 175, b: 118 } // 원하는 a 컬러 값
-            }
-        },
         {
             $group: {
                 _id: {
@@ -62,8 +55,6 @@ const getall = async (filter, options) => {
                 },
                 event: {
                     $push: {
-                        date: "$date",
-                        cycle: "$cycle",
                         server: "$server",
                         channel: "$channel",
                         trade: "$trade"
@@ -72,16 +63,18 @@ const getall = async (filter, options) => {
             }
         },
         {
-            $project: {
-                _id: 0,
-                item_name: "$_id.item_name",
-                color: "$_id.color",
-                event: 1
+            $group: {
+                _id: "$_id.color",
+                items: {
+                    $push: {
+                        item_name: "$_id.item_name",
+                        event: "$event"
+                    }
+                }
             }
         }
     ]).toArray();
-    console.log(list);
-    return list;
+    await groupClient.insertMany(list);
 }
 
 

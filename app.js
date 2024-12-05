@@ -13,7 +13,7 @@ const getDataRouter = require('./routes/getData');
 const totalGetRouter = require('./routes/totalGet');
 const getGroupRouter = require('./routes/getGroup');
 const cron = require('node-cron');
-const {totalGet, deleteAndRefetchDocuments} = require("./dbms/total");
+const {totalGet, deleteAndRefetchDocuments, getall} = require("./dbms/total");
 const {colorstats} = require("./dbms/stats");
 const mongodb = require("mongodb");
 
@@ -37,11 +37,12 @@ cron.schedule('* * * * *',  async () => {
 
   if (now >= executionTime && now < executionTime + 60 * 1000) { // 5분 뒤의 1분 동안 실행
     await totalGet();
-    await new Promise(resolve => setTimeout(resolve, 20000));
+    await new Promise(resolve => setTimeout(resolve, 30000));
     const currentCount = await totalClient.countDocuments({});
     await deleteAndRefetchDocuments(currentCount, cycle);
     await new Promise(resolve => setTimeout(resolve, 60000));
     await colorstats();
+    await getall();
   }
 
 
