@@ -42,17 +42,21 @@ cron.schedule('* * * * *',  async () => {
     mongo.close();
   }
 
-  if (now >= executionTime && now < executionTime + 60 * 1000) { // 5분 뒤의 1분 동안 실행
-    await totalGet();
-    await new Promise(resolve => setTimeout(resolve, 30000));
-    const currentCount = await totalClient.countDocuments({});
-    await deleteAndRefetchDocuments(currentCount, cycle);
-    await new Promise(resolve => setTimeout(resolve, 60000));
-    await colorstats();
-    await getall();
+  if (now >= executionTime && now < executionTime + 60 * 1000) {
+    for (let attempt = 1; attempt <= 5; attempt++) {
+      await totalGet();
+      await new Promise(resolve => setTimeout(resolve, 30000));
+      const currentCount = await totalClient.countDocuments({});
+      if (currentCount === 35904) {
+        await getall(cycle);
+        await colorstats();
+        mongo.close();
+        return;
+      }
+      await totalClient.deleteMany({});
+      await new Promise(resolve => setTimeout(resolve, 30000));
+    }
   }
-
-
 });
 
 app.set('trust proxy', true);

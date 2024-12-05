@@ -44,14 +44,17 @@ function delay(ms) {
 
 const KEY = 'live_338dbbe7d121fa299df2de7c28d5d974ada91ff22d2577b0886df5685d3d7ff7efe8d04e6d233bd35cf2fabdeb93fb0d';
 
-const getall = async () => {
-    await groupClient.deleteMany({});
+const getall = async (cycle) => {
+    cycle = cycle === 1 ? 40 : cycle;
     const list = await totalClient.aggregate([
         {
             $group: {
                 _id: {
                     item_name: "$item_name",
                     color: "$color"
+                },
+                cycle: {
+                    $first: "$cycle"
                 },
                 event: {
                     $push: {
@@ -65,6 +68,9 @@ const getall = async () => {
         {
             $group: {
                 _id: "$_id.color",
+                cycle: {
+                    $first: "$cycle"
+                },
                 items: {
                     $push: {
                         item_name: "$_id.item_name",
@@ -75,6 +81,7 @@ const getall = async () => {
         }
     ]).toArray();
     await groupClient.insertMany(list);
+    await groupClient.deleteMany({cycle: cycle-1});
 }
 
 
