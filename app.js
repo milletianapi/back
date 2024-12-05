@@ -12,6 +12,7 @@ const readRouter = require('./routes/read');
 const getDataRouter = require('./routes/getData');
 const totalGetRouter = require('./routes/totalGet');
 const getGroupRouter = require('./routes/getGroup');
+const searchAllPingRouter = require('./routes/SearchAllPing');
 const cron = require('node-cron');
 const {totalGet, deleteAndRefetchDocuments, getall} = require("./dbms/total");
 const {colorstats} = require("./dbms/stats");
@@ -86,6 +87,7 @@ app.use('/users', usersRouter);
 app.use('/getData', getDataRouter);
 app.use('/totalGet', totalGetRouter);
 app.use('/getgroup', getGroupRouter);
+app.use('/searchallping', searchAllPingRouter);
 
 // dist 폴더를 정적 파일로 제공하도록 설정합니다.
 app.use(express.static(path.join(__dirname, 'dist2')));
