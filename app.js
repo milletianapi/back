@@ -90,6 +90,7 @@ app.use('/getgroup', getGroupRouter);
 app.use('/searchallping', searchAllPingRouter);
 
 // dist 폴더를 정적 파일로 제공하도록 설정합니다.
+app.use(express.static(path.join(__dirname, 'dist3')));
 app.use(express.static(path.join(__dirname, 'dist2')));
 app.use(express.static(path.join(__dirname, 'dist')));
 
