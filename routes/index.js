@@ -1,15 +1,17 @@
 var express = require('express');
 const path = require("path");
-const {visit} = require("../dbms/MongDB");
+const {visit, mobilevisitCount} = require("../dbms/MongDB");
 
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  visit();
+
   if (res.locals.isMobile){
+    mobilevisitCount();
     res.sendFile(path.resolve(__dirname, '../dist2', 'test.html'));
   } else {
+    visit();
     res.sendFile(path.resolve(__dirname, '../dist', 'index.html'));
   }
 });
