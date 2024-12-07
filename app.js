@@ -80,8 +80,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/test', testRouter);
 app.use('/', indexRouter);
+app.use('/test', testRouter);
 app.use('/ads.txt', adsRouter);
 app.use('/read', readRouter);
 app.use('/users', usersRouter);
