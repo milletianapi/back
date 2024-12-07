@@ -81,6 +81,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/searchall', indexRouter);
+app.use('/searchone', indexRouter);
 app.use('/test', testRouter);
 app.use('/ads.txt', adsRouter);
 app.use('/read', readRouter);
