@@ -45,7 +45,6 @@ function delay(ms) {
 const KEY = 'live_338dbbe7d121fa299df2de7c28d5d974ada91ff22d2577b0886df5685d3d7ff7efe8d04e6d233bd35cf2fabdeb93fb0d';
 
 const getall = async (cycle) => {
-    cycle = cycle === 1 ? 40 : cycle-1;
     const list = await totalClient.aggregate([
         {
             $group: {
@@ -81,7 +80,7 @@ const getall = async (cycle) => {
         }
     ]).toArray();
     await groupClient.insertMany(list);
-    await groupClient.deleteMany({cycle: cycle});
+    await groupClient.deleteMany({ cycle: { $ne: cycle } });
 }
 
 
