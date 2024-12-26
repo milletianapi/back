@@ -5,7 +5,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors'); // cors 모듈 추가
 const indexRouter = require('./routes/index');
-const testRouter = require('./routes/test');
 const adsRouter = require('./routes/ads');
 const usersRouter = require('./routes/users');
 const readRouter = require('./routes/read');
@@ -25,6 +24,19 @@ const CYCLE_DURATION = 36 * 60 * 1000;
 const ONE_MINUTES = 1 * 60 * 1000;
 const FIVE_MINUTES = 5 * 60 * 1000;
 const SIX_MINUTES = 5 * 60 * 1000;
+
+
+function checkOddEven(num) {
+  if (typeof num === 'string' && !isNaN(Number(num))) {
+    num = Number(num);
+  }
+
+  if (typeof num !== 'number' || !Number.isInteger(num)) {
+    throw new Error("숫자를 입력하여 주시기 바랍니다.");
+  }
+
+  return num % 2 === 0 ? "짝수" : "홀수";
+}
 
 cron.schedule('* * * * *',  async () => {
   const now = Date.now()
@@ -83,7 +95,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/searchall', indexRouter);
 app.use('/searchone', indexRouter);
-app.use('/test', testRouter);
 app.use('/ads.txt', adsRouter);
 app.use('/read', readRouter);
 app.use('/users', usersRouter);
