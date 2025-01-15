@@ -8,10 +8,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   if (res.locals.isMobile){
     mobilevisitCount();
-    res.sendFile(path.resolve(__dirname, '../dist2', 'test.html'));
+    res.sendFile(path.resolve(__dirname, '../../frontmobile/dist', 'index.html'));
   } else {
     visit();
-    res.sendFile(path.resolve(__dirname, '../dist', 'index.html'));
+    res.sendFile(path.resolve(__dirname, '../../frontdesktop/dist', 'index.html'));
   }
 });
 

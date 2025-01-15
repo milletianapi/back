@@ -14,29 +14,15 @@ const getGroupRouter = require('./routes/getGroup');
 const searchAllPingRouter = require('./routes/SearchAllPing');
 const getMainPingRouter = require('./routes/getMain');
 const cron = require('node-cron');
-const {totalGet, deleteAndRefetchDocuments, getall} = require("./dbms/total");
+const {totalGet, getall} = require("./dbms/total");
 const {colorstats} = require("./dbms/stats");
 const mongodb = require("mongodb");
 
 const app = express();
 
 const CYCLE_DURATION = 36 * 60 * 1000;
-const ONE_MINUTES = 1 * 60 * 1000;
+const ONE_MINUTES = 60 * 1000;
 const FIVE_MINUTES = 5 * 60 * 1000;
-const SIX_MINUTES = 5 * 60 * 1000;
-
-
-function checkOddEven(num) {
-  if (typeof num === 'string' && !isNaN(Number(num))) {
-    num = Number(num);
-  }
-
-  if (typeof num !== 'number' || !Number.isInteger(num)) {
-    throw new Error("숫자를 입력하여 주시기 바랍니다.");
-  }
-
-  return num % 2 === 0 ? "짝수" : "홀수";
-}
 
 cron.schedule('* * * * *',  async () => {
   const now = Date.now()
@@ -46,7 +32,6 @@ cron.schedule('* * * * *',  async () => {
   const cycleStartTime = startOfDay + (cycle - 1) * CYCLE_DURATION;
   const executionTime = cycleStartTime + FIVE_MINUTES;
   const oneTime = cycleStartTime + ONE_MINUTES;
-  const statsTime = cycleStartTime + SIX_MINUTES;
   const uri = 'mongodb+srv://yoop80075:whrudwns!048576@cluster0.r9zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
   const mongo = new mongodb.MongoClient(uri);
   const totalClient = mongo.db('mabi').collection('total');
@@ -75,14 +60,11 @@ cron.schedule('* * * * *',  async () => {
 
 app.set('trust proxy', true);
 
-// CORS 설정
-
 app.use((req, res, next) => {
   res.locals.isMobile = req.hostname.startsWith('m.');
   next();
 });
 
-// view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
@@ -104,10 +86,8 @@ app.use('/getgroup', getGroupRouter);
 app.use('/searchallping', searchAllPingRouter);
 app.use('/getmain', getMainPingRouter);
 
-// dist 폴더를 정적 파일로 제공하도록 설정합니다.
-app.use(express.static(path.join(__dirname, 'dist3')));
-app.use(express.static(path.join(__dirname, 'dist2')));
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, '../frontmobile/dist')));
+app.use(express.static(path.join(__dirname, '../frontdesktop/dist')));
 
 app.use(cors({
   origin: (origin, callback) => {
@@ -122,13 +102,11 @@ app.use(cors({
   credentials: true
 }));
 
-// catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-// error handler
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
   res.status(err.status || 500);
