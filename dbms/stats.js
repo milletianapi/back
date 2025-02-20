@@ -7,7 +7,6 @@ const mabistatsDb = mongo.db('mabistats');
 const coloraClient = mabistatsDb.collection('colora');
 const colorbClient = mabistatsDb.collection('colorb');
 const colorcClient = mabistatsDb.collection('colorc');
-const colorsetClient = mabistatsDb.collection('colorset');
 
 const updateCollection = async (collection, data) => {
     for (const item of data) {
@@ -34,15 +33,9 @@ const colorstats = async () => {
             { $group: { _id: '$color.c', count: { $sum: 1 } } }
         ]).toArray();
 
-        const colorset = await db.collection('total').aggregate([
-            { $group: { _id: '$color', count: { $sum: 1 } } }
-        ]).toArray();
-
-        // 각 컬렉션에 데이터 업데이트
         updateCollection(coloraClient, colora);
         updateCollection(colorbClient, colorb);
         updateCollection(colorcClient, colorc);
-        updateCollection(colorsetClient, colorset);
 
         console.log("View counts updated successfully.");
     } catch (error) {
