@@ -181,8 +181,8 @@ const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
     const bulkOps = [];
     let count = 0;
     for (const item of response.shop[2].item) {
-        count: count++
-        if (count > 22) {return;}
+        count++
+        if (count > 22) {break;}
         const pouch = {
             date: ymd,
             cycle: cycle,
@@ -192,7 +192,7 @@ const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
             item_name: item.item_display_name,
             color: { a: { r: 0, g: 0, b: 0 }, b: { r: 0, g: 0, b: 0 }, c: { r: 0, g: 0, b: 0 } },
 
-    };
+        };
         for (let i = 0; i < 3; i++) {
             const colorTable = i === 0 ? 'a' : i === 1 ? 'b' : 'c';
             for (let j = 0; j < 3; j++) {
@@ -213,6 +213,7 @@ const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
         });
     }
     // BulkWrite 실행
+    console.log('pouch size : ' + bulkOps.length);
     if (bulkOps.length > 0) {
         await totalClient.bulkWrite(bulkOps);
     }
@@ -232,8 +233,7 @@ const deleteAndRefetchDocuments = async (currentCount, currentCycle) => {
 };
 
 const getGroupedPouch = async (query) => {
-    const group = await groupClient.find(query).toArray();
-    return group;
+    return await groupClient.find(query).toArray();
 }
 
 module.exports = {totalGet, deleteAndRefetchDocuments, getall, getGroupedPouch}
