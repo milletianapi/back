@@ -98,7 +98,7 @@ const download = (response) => {
         }
         return pouch;
     });
-    data.item = data.item.slice(0, 21)
+    data.item = data.item.slice(0, 22)
 };
 
 const readData = async (date, cycle, server, channel, trade) => {
