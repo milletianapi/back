@@ -144,7 +144,7 @@ const totalGet = async () => {
                             return;
                         }
 
-                        if (!resultData.shop || !resultData.shop[2] || !resultData.shop[2].item || resultData.shop[2].item.length !== 22) {
+                        if (!resultData.shop || !resultData.shop[2] || !resultData.shop[2].item) {
                             if (retryCount < 3) {
                                 console.log(`Retrying... Attempt ${retryCount + 1}`);
                                 await getData(retryCount + 1);
@@ -179,8 +179,10 @@ const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
     const keyLength = 2;
 
     const bulkOps = [];
-
+    let count = 0;
     for (const item of response.shop[2].item) {
+        count: count++
+        if (count > 22) {return;}
         const pouch = {
             date: ymd,
             cycle: cycle,
@@ -189,6 +191,7 @@ const pouchQuery = async (response, ymd, cycle, server, channelnum, trade) => {
             trade: trade,
             item_name: item.item_display_name,
             color: { a: { r: 0, g: 0, b: 0 }, b: { r: 0, g: 0, b: 0 }, c: { r: 0, g: 0, b: 0 } },
+
     };
         for (let i = 0; i < 3; i++) {
             const colorTable = i === 0 ? 'a' : i === 1 ? 'b' : 'c';

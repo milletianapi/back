@@ -46,7 +46,7 @@ cron.schedule('* * * * *',  async () => {
       await totalGet();
       await new Promise(resolve => setTimeout(resolve, 30000));
       const currentCount = await totalClient.countDocuments({});
-      if (currentCount === 35904) {
+      if (currentCount >= 35904) {
         await getall(cycle);
         await colorstats();
         mongo.close();
